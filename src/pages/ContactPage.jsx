@@ -58,7 +58,7 @@ export default function ContactPage() {
                     Boutique Location
                   </h4>
                   <p className="font-montserrat text-sm text-mocha leading-relaxed">
-                    12 Pastry Lane, London, SW1A 1AA
+                    Unit G-22, Ground Floor,Polo Park Mall, Presidential Road, Enugu, Enugu State, Nigeria
                   </p>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                     Phone Inquiries
                   </h4>
                   <p className="font-montserrat text-sm text-mocha">
-                    +44 20 1234 5678
+                    +234 810 412 4930
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                     Email Correspondence
                   </h4>
                   <p className="font-montserrat text-sm text-mocha">
-                    hello@cravecorner.co.uk
+                    hello@cravecorner.co.ng
                   </p>
                 </div>
               </div>

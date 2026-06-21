@@ -54,7 +54,7 @@ export default function AboutPage() {
               “We believe that every dessert has a soul. From the crackle of caramelized sugar on a vanilla crème brûlée to the fudgy core of our lava cakes — sweets are moments of pure, unadulterated happiness.”
             </p>
             <p className="font-montserrat text-sm text-mocha-light/80 leading-relaxed">
-              Crave Corner was founded in London with one singular goal: to create premium, gourmet confectionery accessible directly to sweet lovers. What started as a tiny kitchen specializing in custom layered cakes has grown into a prestigious online confectionery boutique, shipping daily freshly baked treats.
+              Crave Corner was founded in Enugu with one singular goal: to create premium, gourmet confectionery accessible directly to sweet lovers. What started as a tiny kitchen specializing in custom layered cakes has grown into a prestigious online confectionery boutique, shipping daily freshly baked treats.
             </p>
             <p className="font-montserrat text-sm text-mocha-light/80 leading-relaxed">
               Our recipe is simple: we never cut corners. We whip, fold, sift, and bake every item in small batches, ensuring you receive the ultimate texture and depth of flavor in every single bite.
