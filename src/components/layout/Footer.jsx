@@ -81,7 +81,7 @@ export default function Footer() {
                     border: '1px solid rgba(212, 175, 122, 0.3)',
                   }}
                   onMouseEnter={e => {
-                    e.currentTarget.style.background = 'linear-gradient(135deg, #D4AF7A, #C9876F)';
+                    e.currentTarget.style.background = 'linear-gradient(-135deg, #352620 50%, #C9876F 100%)';
                     e.currentTarget.style.borderColor = 'transparent';
                   }}
                   onMouseLeave={e => {

@@ -18,19 +18,19 @@ const initialOrders = [
     total: 38.97,
     status: 'PENDING',
     createdAt: new Date(Date.now() - 4 * 3600 * 1000).toISOString(),
-    address: '14 Forest lane, London, EC2 3BF',
+    address: '09, Olonode street, Ebute Meta, Lagos',
     items: [
       { name: 'Molten Chocolate Lava Cake', quantity: 3, price: 12.99 },
     ],
   },
   {
     id: 1002,
-    customer: 'Patchouli Knowledge',
-    email: 'patty@library.net',
+    customer: 'Knowledge Ezenwokefor',
+    email: 'ezenwa23@gmail.com',
     total: 34.46,
     status: 'PROCESSING',
     createdAt: new Date(Date.now() - 24 * 3600 * 1000).toISOString(),
-    address: 'Library Mansion, Room 3, Oxford, OX1 2JD',
+    address: '32, Ademola Creative Avenue, Yaba, Lagos',
     items: [
       { name: 'Matcha Cheesecake', quantity: 1, price: 38.99 },
       { name: 'Orange Cream Cupcakes', quantity: 2, price: 3.99 },
@@ -39,12 +39,12 @@ const initialOrders = [
   },
   {
     id: 1003,
-    customer: 'Sakuya Izayoi',
-    email: 'time@maid.co.uk',
+    customer: 'Jennifer Okoro',
+    email: 'jennifer@yahoo.com',
     total: 17.98,
     status: 'DELIVERED',
     createdAt: new Date(Date.now() - 48 * 3600 * 1000).toISOString(),
-    address: 'Scarlet Devil Mansion, Kitchen wing, Bath, BA1 1EE',
+    address: 'Godfrey Okoye University, Thinkers Corner, Enugu',
     items: [
       { name: 'Decadent Chocolate Mousse', quantity: 2, price: 8.99 },
     ],
@@ -131,7 +131,7 @@ export default function AdminPage() {
                 value={pin}
                 onChange={e => setPin(e.target.value.replace(/\D/g, ''))}
                 placeholder="Enter 4-Digit PIN"
-                className={`w-full text-center tracking-[1em] font-mono text-2xl py-3 rounded-xl border bg-cream/50 outline-none transition-all duration-300 ${
+                className={`w-full text-center  font-mono text-2xl py-3 rounded-xl border bg-cream/50 outline-none transition-all duration-300 ${
                   pinError
                     ? 'border-rose-gold focus:ring-2 focus:ring-rose-gold/20'
                     : 'border-champagne/30 focus:border-champagne focus:ring-2 focus:ring-champagne/10'
@@ -152,9 +152,7 @@ export default function AdminPage() {
             </Button>
           </form>
 
-          <p className="font-cormorant text-xs text-mocha-light italic">
-            Hint: Use PIN <span className="font-bold font-mono">1234</span> to access dashboard
-          </p>
+          
         </GlassCard>
       </div>
     );
@@ -215,7 +213,7 @@ export default function AdminPage() {
                     <div key={o.id} className="flex justify-between items-center py-2 text-sm font-montserrat">
                       <div>
                         <span className="font-semibold text-mocha">{o.customer}</span>
-                        <span className="text-xs text-mocha-light block">{o.items[0]?.name} (and others)</span>
+                        <span className="text-xs text-mocha-light block">{o.items[0]?.name}</span>
                       </div>
                       <span className="font-bold text-mocha">{o.status}</span>
                     </div>
